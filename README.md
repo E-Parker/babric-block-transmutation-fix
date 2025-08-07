@@ -6,7 +6,7 @@ This mod fixes a client-side crash that occurs when trying to hover over transmu
 
 ## Setup
 
-Please follow the setup guide on https://babric.github.io/. After this, add this mod to your mods folder though your launcher of choice.
+Please follow the setup guide on https://babric.github.io/. After this, download the latest release and add the .jar file to your mods folder through your launcher of choice.
 
 ## License
 
