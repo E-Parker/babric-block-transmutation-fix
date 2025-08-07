@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "transmutation_patch",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Transmutation Patch",
+  "description": "Patch for the client crash when viewing transmuted slabs in the inventory. Happy transmuting!",
   "authors": [
-    "Me!"
+    "Delta"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/E-Parker/babric-block-transmutation-fix"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/transmutation_patch/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.fabricmc.transmutation_patch.transmutation_patch"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "transmutation_patch.mixins.json"
   ],
 
   "depends": {
